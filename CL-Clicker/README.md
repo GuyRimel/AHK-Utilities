@@ -1,0 +1,1 @@
+CL-Clicker is a simple AutoHotKey GUI intended to search and click all down-arrows in the Curriculog hierarchy view... tedious to do manually? You bet.
