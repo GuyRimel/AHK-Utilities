@@ -1520,7 +1520,7 @@ return
 applyPosModifiers:
 gosub, setPosModString
 GuiControl,, DOPB, % currPosPreset.PB.DOPB . posModString
-SoundBeep
+; SoundBeep
 return
 
 ; ----------------------------------------------------------------
@@ -1533,97 +1533,97 @@ return
 setChildC101:
 currChild := childC101
 gosub, setChildName
-SoundBeep
+; SoundBeep
 return
 
 setChildC102:
 currChild := childC102
 gosub, setChildName
-SoundBeep
+; SoundBeep
 return
 
 setChildC103:
 currChild := childC103
 gosub, setChildName
-SoundBeep
+; SoundBeep
 return
 
 setChildC104:
 currChild := childC104
 gosub, setChildName
-SoundBeep
+; SoundBeep
 return
 
 setChildC105:
 currChild := childC105
 gosub, setChildName
-SoundBeep
+; SoundBeep
 return
 
 setChildC106:
 currChild := childC106
 gosub, setChildName
-SoundBeep
+; SoundBeep
 return
 
 setChildC107:
 currChild := childC107
 gosub, setChildName
-SoundBeep
+; SoundBeep
 return
 
 setChildC108:
 currChild := childC108
 gosub, setChildName
-SoundBeep
+; SoundBeep
 return
 
 setChildC201:
 currChild := childC201
 gosub, setChildName
-SoundBeep
+; SoundBeep
 return
 
 setChildC202:
 currChild := childC202
 gosub, setChildName
-SoundBeep
+; SoundBeep
 return
 
 setChildC203:
 currChild := childC203
 gosub, setChildName
-SoundBeep
+; SoundBeep
 return
 
 setChildC204:
 currChild := childC204
 gosub, setChildName
-SoundBeep
+; SoundBeep
 return
 
 setChildC205:
 currChild := childC205
 gosub, setChildName
-SoundBeep
+; SoundBeep
 return
 
 setChildC206:
 currChild := childC206
 gosub, setChildName
-SoundBeep
+; SoundBeep
 return
 
 setChildC207:
 currChild := childC207
 gosub, setChildName
-SoundBeep
+; SoundBeep
 return
 
 setChildC208:
 currChild := childC208
 gosub, setChildName
-SoundBeep
+; SoundBeep
 return
 
 ; -----------------------------------------------------
@@ -1633,7 +1633,7 @@ currPBArray := currChild.posPreset01.PB
 gosub, setPosPresetModifiers
 gosub, setPosModString
 GuiControl,, DOPB, % currPosPreset.PB.DOPB . posModString
-SoundBeep
+; SoundBeep
 return
 
 setPosPreset02:
@@ -1642,7 +1642,7 @@ currPBArray := currChild.posPreset02.PB
 gosub, setPosPresetModifiers
 gosub, setPosModString
 GuiControl,, DOPB, % currPosPreset.PB.DOPB . posModString
-SoundBeep
+; SoundBeep
 return
 
 setPosPreset03:
@@ -1651,7 +1651,7 @@ currPBArray := currChild.posPreset03.PB
 gosub, setPosPresetModifiers
 gosub, setPosModString
 GuiControl,, DOPB, % currPosPreset.PB.DOPB . posModString
-SoundBeep
+; SoundBeep
 return
 
 setPosPresetModifiers:
@@ -1703,32 +1703,32 @@ setNegPreset01:
 currNegPreset := currChild.negPreset01
 currNBArray := currNegPreset.NB
 GuiControl,, DONB, % currNBArray.DONB . negModString
-SoundBeep
+; SoundBeep
 return
 
 setNegPreset02:
 currNegPreset := currChild.negPreset02
 currNBArray := currNegPreset.NB
 GuiControl,, DONB, % currNBArray.DONB . negModString
-SoundBeep
+; SoundBeep
 return
 
 setNegPreset03:
 currNegPreset := currChild.negPreset03
 currNBArray := currNegPreset.NB
 GuiControl,, DONB, % currNBArray.DONB . negModString
-SoundBeep
+; SoundBeep
 return
 
 progUp:
 prog := prog + progStep
 GuiControl,,progbar, % prog
-beepTone := % beepTone + beepStep
-if (beepTone > 1250)
-	{
-		beepTone := 750
-	}
-SoundBeep, %beepTone%, %beepLength%
+; beepTone := % beepTone + beepStep
+; if (beepTone > 1250)
+; 	{
+; 		beepTone := 750
+; 	}
+; SoundBeep, %beepTone%, %beepLength%
 return
 
 tabProgUpSleep:
@@ -1756,7 +1756,7 @@ else
 gosub, evalPosModifiers
 prog := 0
 GuiControl,,progbar, prog
-SoundBeep, 950, 200
+; SoundBeep, 950, 200
 
 ; htmlfile := ComObjCreate("htmlfile") ;v1 sintax
 ; ; htmlfile := ComObject("htmlfile") ;v2 sintax
@@ -1970,7 +1970,7 @@ Sleep, % sleepAmount
 Send, {Tab}
 
 GuiControl,,progbar, 100
-SoundBeep, 750, 200
+; SoundBeep, 750, 200
 
 Return
 
