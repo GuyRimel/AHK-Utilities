@@ -44,10 +44,10 @@ posModString := ""
 currNegPreset := ""
 currNBArray := ""
 
-childC101 := {"name": "Zayden", "sex": "male", "laundryDay": "Sunday", "posPreset01": {"PB": {}}, "posPreset02": {"PB": {}}, "posPreset03": {"PB": {}}, "negPreset01": {"NB": {}}, "negPreset02": {"NB": {}}, "negPreset03": {"NB": {}}}
+childC101 := {"name": "Cyrus", "sex": "male", "laundryDay": "Monday", "posPreset01": {"PB": {}}, "posPreset02": {"PB": {}}, "posPreset03": {"PB": {}}, "negPreset01": {"NB": {}}, "negPreset02": {"NB": {}}, "negPreset03": {"NB": {}}}
 
-childC101.posPreset01.PB.DOPB := "Zayden was sociable and generally respectful to peers and staff."
-childC101.posPreset01.PB.accountability := 0
+childC101.posPreset01.PB.DOPB := " was sociable when spoken to and generally respectful to peers and staff."
+childC101.posPreset01.PB.accountability := 1
 childC101.posPreset01.PB.angerImpulseControl := 0
 childC101.posPreset01.PB.busReport := 0
 childC101.posPreset01.PB.cleanRoom := 0
@@ -72,7 +72,7 @@ childC101.posPreset01.PB.posMod04 := 1
 childC101.posPreset01.PB.posMod05 := 0
 childC101.posPreset01.PB.posMod06 := 0
 
-childC101.posPreset02.PB.DOPB := "Zayden was sociable and generally respectful to staff."
+childC101.posPreset02.PB.DOPB := ""
 childC101.posPreset02.PB.accountability := 0
 childC101.posPreset02.PB.angerImpulseControl := 0
 childC101.posPreset02.PB.busReport := 0
@@ -81,24 +81,24 @@ childC101.posPreset02.PB.clothingCare := 0
 childC101.posPreset02.PB.completedChore := 0
 childC101.posPreset02.PB.completedHomework := 0
 childC101.posPreset02.PB.goodHygiene := 0
-childC101.posPreset02.PB.goodSocialSkills := 2
+childC101.posPreset02.PB.goodSocialSkills := 0
 childC101.posPreset02.PB.grateful := 0
 childC101.posPreset02.PB.helpful := 0
 childC101.posPreset02.PB.politeGoodManners := 0
 childC101.posPreset02.PB.positiveReferral := 0
 childC101.posPreset02.PB.practiceTruthfulness := 0
-childC101.posPreset02.PB.respectfulOfAdults := 2
+childC101.posPreset02.PB.respectfulOfAdults := 0
 childC101.posPreset02.PB.respectfulOfPeers := 0
 childC101.posPreset02.PB.respectfulOfProperty := 0
 childC101.posPreset02.PB.other := 0
-childC101.posPreset02.PB.posMod01 := 1
-childC101.posPreset02.PB.posMod02 := 1
+childC101.posPreset02.PB.posMod01 := 0
+childC101.posPreset02.PB.posMod02 := 0
 childC101.posPreset02.PB.posMod03 := 0
-childC101.posPreset02.PB.posMod04 := 1
+childC101.posPreset02.PB.posMod04 := 0
 childC101.posPreset02.PB.posMod05 := 0
 childC101.posPreset02.PB.posMod06 := 0
 
-childC101.posPreset03.PB.DOPB := "Zayden was generally respectful of staff, though not always."
+childC101.posPreset03.PB.DOPB := ""
 childC101.posPreset03.PB.accountability := 0
 childC101.posPreset03.PB.angerImpulseControl := 0
 childC101.posPreset03.PB.busReport := 0
@@ -117,15 +117,15 @@ childC101.posPreset03.PB.respectfulOfAdults := 0
 childC101.posPreset03.PB.respectfulOfPeers := 0
 childC101.posPreset03.PB.respectfulOfProperty := 0
 childC101.posPreset03.PB.other := 0
-childC101.posPreset03.PB.posMod01 := 1
-childC101.posPreset03.PB.posMod02 := 1
+childC101.posPreset03.PB.posMod01 := 0
+childC101.posPreset03.PB.posMod02 := 0
 childC101.posPreset03.PB.posMod03 := 0
-childC101.posPreset03.PB.posMod04 := 1
+childC101.posPreset03.PB.posMod04 := 0
 childC101.posPreset03.PB.posMod05 := 0
 childC101.posPreset03.PB.posMod06 := 0
 
 
-childC101.negPreset01.NB.DONB := "Zayden had a good day today."
+childC101.negPreset01.NB.DONB := " had a good day today."
 childC101.negPreset01.NB.arguing := 0
 childC101.negPreset01.NB.boundaries := 0
 childC101.negPreset01.NB.busIncident := 0
@@ -160,9 +160,9 @@ childC101.negPreset01.NB.unauthorizedAbsence := 0
 childC101.negPreset01.NB.verbalAbuse := 0
 childC101.negPreset01.NB.violationOfRules := 0
 
-childC101.negPreset02.NB.DONB := "Zayden teased his peers during multiple interactions."
+childC101.negPreset02.NB.DONB := ""
 childC101.negPreset02.NB.arguing := 0
-childC101.negPreset02.NB.boundaries := 3
+childC101.negPreset02.NB.boundaries := 0
 childC101.negPreset02.NB.busIncident := 0
 childC101.negPreset02.NB.complaining := 0
 childC101.negPreset02.NB.crueltyToAnimals := 0
@@ -173,7 +173,7 @@ childC101.negPreset02.NB.demanding := 0
 childC101.negPreset02.NB.demandsAttention := 0
 childC101.negPreset02.NB.destructionOfProperty := 0
 childC101.negPreset02.NB.disobedient := 0
-childC101.negPreset02.NB.disrespectfulOfPeers := 3
+childC101.negPreset02.NB.disrespectfulOfPeers := 0
 childC101.negPreset02.NB.disrespectfulOfAdults := 0
 childC101.negPreset02.NB.harmingOthers := 0
 childC101.negPreset02.NB.hostility := 0
@@ -181,7 +181,7 @@ childC101.negPreset02.NB.inappropriateDress := 0
 childC101.negPreset02.NB.inappropriateSexualBehavior := 0
 childC101.negPreset02.NB.manipulative := 0
 childC101.negPreset02.NB.other := 0
-childC101.negPreset02.NB.physicalAgression := 1
+childC101.negPreset02.NB.physicalAgression := 0
 childC101.negPreset02.NB.poorHygiene := 0
 childC101.negPreset02.NB.pouting := 0
 childC101.negPreset02.NB.refusalToCompleteChores := 0
@@ -195,9 +195,9 @@ childC101.negPreset02.NB.unauthorizedAbsence := 0
 childC101.negPreset02.NB.verbalAbuse := 0
 childC101.negPreset02.NB.violationOfRules := 0
 
-childC101.negPreset03.NB.DONB := "Zayden was disrespectful to staff on multiple occasions becoming argumentative at times. He also teased his peers during many interactions."
-childC101.negPreset03.NB.arguing := 3
-childC101.negPreset03.NB.boundaries := 3
+childC101.negPreset03.NB.DONB := ""
+childC101.negPreset03.NB.arguing := 0
+childC101.negPreset03.NB.boundaries := 0
 childC101.negPreset03.NB.busIncident := 0
 childC101.negPreset03.NB.complaining := 0
 childC101.negPreset03.NB.crueltyToAnimals := 0
@@ -208,15 +208,15 @@ childC101.negPreset03.NB.demanding := 0
 childC101.negPreset03.NB.demandsAttention := 0
 childC101.negPreset03.NB.destructionOfProperty := 0
 childC101.negPreset03.NB.disobedient := 0
-childC101.negPreset03.NB.disrespectfulOfPeers := 3
-childC101.negPreset03.NB.disrespectfulOfAdults := 3
+childC101.negPreset03.NB.disrespectfulOfPeers := 0
+childC101.negPreset03.NB.disrespectfulOfAdults := 0
 childC101.negPreset03.NB.harmingOthers := 0
 childC101.negPreset03.NB.hostility := 0
 childC101.negPreset03.NB.inappropriateDress := 0
 childC101.negPreset03.NB.inappropriateSexualBehavior := 0
 childC101.negPreset03.NB.manipulative := 0
 childC101.negPreset03.NB.other := 0
-childC101.negPreset03.NB.physicalAgression := 2
+childC101.negPreset03.NB.physicalAgression := 0
 childC101.negPreset03.NB.poorHygiene := 0
 childC101.negPreset03.NB.pouting := 0
 childC101.negPreset03.NB.refusalToCompleteChores := 0
@@ -230,9 +230,9 @@ childC101.negPreset03.NB.unauthorizedAbsence := 0
 childC101.negPreset03.NB.verbalAbuse := 0
 childC101.negPreset03.NB.violationOfRules := 0
 
-childC102 := {"name": "Zeven", "sex": "male", "laundryDay": "Monday", "posPreset01": {"PB": {}}, "posPreset02": {"PB": {}}, "posPreset03": {"PB": {}}, "negPreset01": {"NB": {}}, "negPreset02": {"NB": {}}, "negPreset03": {"NB": {}}}
+childC102 := {"name": "Jacob", "sex": "male", "laundryDay": "?", "posPreset01": {"PB": {}}, "posPreset02": {"PB": {}}, "posPreset03": {"PB": {}}, "negPreset01": {"NB": {}}, "negPreset02": {"NB": {}}, "negPreset03": {"NB": {}}}
 
-childC102.posPreset01.PB.DOPB := "Zeven was generally respectful to staff, sociable, and played well with his peers."
+childC102.posPreset01.PB.DOPB := " was generally respectful to staff, sociable, and played well with his peers."
 childC102.posPreset01.PB.accountability := 0
 childC102.posPreset01.PB.angerImpulseControl := 0
 childC102.posPreset01.PB.busReport := 0
@@ -258,7 +258,7 @@ childC102.posPreset01.PB.posMod04 := 1
 childC102.posPreset01.PB.posMod05 := 0
 childC102.posPreset01.PB.posMod06 := 0
 
-childC102.posPreset02.PB.DOPB := "Zeven was generally sociable and played well with his peers."
+childC102.posPreset02.PB.DOPB := " was generally sociable and played well with his peers."
 childC102.posPreset02.PB.accountability := 0
 childC102.posPreset02.PB.angerImpulseControl := 0
 childC102.posPreset02.PB.busReport := 0
@@ -284,7 +284,7 @@ childC102.posPreset02.PB.posMod04 := 1
 childC102.posPreset02.PB.posMod05 := 0
 childC102.posPreset02.PB.posMod06 := 0
 
-childC102.posPreset03.PB.DOPB := "Zeven was generally respectful of staff, often requiring redirection."
+childC102.posPreset03.PB.DOPB := " was generally respectful of staff, often requiring redirection."
 childC102.posPreset03.PB.accountability := 0
 childC102.posPreset03.PB.angerImpulseControl := 0
 childC102.posPreset03.PB.busReport := 0
@@ -311,7 +311,7 @@ childC102.posPreset03.PB.posMod05 := 0
 childC102.posPreset03.PB.posMod06 := 0
 
 
-childC102.negPreset01.NB.DONB := "Zeven had a good day today."
+childC102.negPreset01.NB.DONB := " had a good day today."
 childC102.negPreset01.NB.arguing := 0
 childC102.negPreset01.NB.boundaries := 0
 childC102.negPreset01.NB.busIncident := 0
@@ -346,7 +346,7 @@ childC102.negPreset01.NB.unauthorizedAbsence := 0
 childC102.negPreset01.NB.verbalAbuse := 0
 childC102.negPreset01.NB.violationOfRules := 0
 
-childC102.negPreset02.NB.DONB := "Zeven told his peers to shut up and called them names on multiple occasions. Though playful, it is disrespectful and compulsive."
+childC102.negPreset02.NB.DONB := " told his peers to shut up and called them names on multiple occasions. Though mostly playful, seeking laughs from his peers, it is disrespectful, compulsive. He is consistently corrected for this."
 childC102.negPreset02.NB.arguing := 0
 childC102.negPreset02.NB.boundaries := 0
 childC102.negPreset02.NB.busIncident := 0
@@ -354,13 +354,13 @@ childC102.negPreset02.NB.complaining := 2
 childC102.negPreset02.NB.crueltyToAnimals := 0
 childC102.negPreset02.NB.cussing := 0
 childC102.negPreset02.NB.deceitfulnessLying := 0
-childC102.negPreset02.NB.defiance := 0
+childC102.negPreset02.NB.defiance := 3
 childC102.negPreset02.NB.demanding := 0
 childC102.negPreset02.NB.demandsAttention := 0
 childC102.negPreset02.NB.destructionOfProperty := 0
 childC102.negPreset02.NB.disobedient := 0
-childC102.negPreset02.NB.disrespectfulOfPeers := 0
-childC102.negPreset02.NB.disrespectfulOfAdults := 2
+childC102.negPreset02.NB.disrespectfulOfPeers := 5
+childC102.negPreset02.NB.disrespectfulOfAdults := 0
 childC102.negPreset02.NB.harmingOthers := 0
 childC102.negPreset02.NB.hostility := 0
 childC102.negPreset02.NB.inappropriateDress := 0
@@ -370,7 +370,7 @@ childC102.negPreset02.NB.other := 0
 childC102.negPreset02.NB.physicalAgression := 0
 childC102.negPreset02.NB.poorHygiene := 0
 childC102.negPreset02.NB.pouting := 2
-childC102.negPreset02.NB.refusalToCompleteChores := 1
+childC102.negPreset02.NB.refusalToCompleteChores := 0
 childC102.negPreset02.NB.selfHarming := 0
 childC102.negPreset02.NB.slammingDoors := 0
 childC102.negPreset02.NB.schoolBehavior := 0
@@ -381,7 +381,7 @@ childC102.negPreset02.NB.unauthorizedAbsence := 0
 childC102.negPreset02.NB.verbalAbuse := 0
 childC102.negPreset02.NB.violationOfRules := 2
 
-childC102.negPreset03.NB.DONB := "Zeven ran in the cottage on multiple occasions, and complained and pouted about being redirected, and often said disrespectful things to peers and staff such as, 'shut up'."
+childC102.negPreset03.NB.DONB := " ran in the cottage on multiple occasions, and complained and pouted about being redirected, and often said disrespectful things to peers and staff such as, 'shut up'."
 childC102.negPreset03.NB.arguing := 0
 childC102.negPreset03.NB.boundaries := 0
 childC102.negPreset03.NB.busIncident := 0
@@ -416,9 +416,9 @@ childC102.negPreset03.NB.unauthorizedAbsence := 0
 childC102.negPreset03.NB.verbalAbuse := 0
 childC102.negPreset03.NB.violationOfRules := 3
 
-childC103 := {"name": "Alezander", "sex": "male", "laundryDay": "Saturday", "posPreset01": {"PB": {}}, "posPreset02": {"PB": {}}, "posPreset03": {"PB": {}}, "negPreset01": {"NB": {}}, "negPreset02": {"NB": {}}, "negPreset03": {"NB": {}}}
+childC103 := {"name": "Jaybian", "sex": "male", "laundryDay": "Saturday", "posPreset01": {"PB": {}}, "posPreset02": {"PB": {}}, "posPreset03": {"PB": {}}, "negPreset01": {"NB": {}}, "negPreset02": {"NB": {}}, "negPreset03": {"NB": {}}}
 
-childC103.posPreset01.PB.DOPB := "Alezander was sociable and generally respectful to peers and staff."
+childC103.posPreset01.PB.DOPB := " was sociable and generally respectful to peers and staff."
 childC103.posPreset01.PB.accountability := 0
 childC103.posPreset01.PB.angerImpulseControl := 0
 childC103.posPreset01.PB.busReport := 0
@@ -444,7 +444,7 @@ childC103.posPreset01.PB.posMod04 := 1
 childC103.posPreset01.PB.posMod05 := 0
 childC103.posPreset01.PB.posMod06 := 0
 
-childC103.posPreset02.PB.DOPB := "Alezander was sociable and generally respectful to staff."
+childC103.posPreset02.PB.DOPB := " was sociable and generally respectful to staff."
 childC103.posPreset02.PB.accountability := 0
 childC103.posPreset02.PB.angerImpulseControl := 0
 childC103.posPreset02.PB.busReport := 0
@@ -470,7 +470,7 @@ childC103.posPreset02.PB.posMod04 := 1
 childC103.posPreset02.PB.posMod05 := 0
 childC103.posPreset02.PB.posMod06 := 0
 
-childC103.posPreset03.PB.DOPB := "Alezander was generally respectful to staff, though occasionally requiring redirection."
+childC103.posPreset03.PB.DOPB := " was generally respectful to staff, though occasionally requiring redirection."
 childC103.posPreset03.PB.accountability := 0
 childC103.posPreset03.PB.angerImpulseControl := 1
 childC103.posPreset03.PB.busReport := 0
@@ -497,7 +497,7 @@ childC103.posPreset03.PB.posMod05 := 0
 childC103.posPreset03.PB.posMod06 := 0
 
 
-childC103.negPreset01.NB.DONB := "Alezander had a good day today."
+childC103.negPreset01.NB.DONB := " had a good day today."
 childC103.negPreset01.NB.arguing := 0
 childC103.negPreset01.NB.boundaries := 0
 childC103.negPreset01.NB.busIncident := 0
@@ -532,7 +532,7 @@ childC103.negPreset01.NB.unauthorizedAbsence := 0
 childC103.negPreset01.NB.verbalAbuse := 0
 childC103.negPreset01.NB.violationOfRules := 0
 
-childC103.negPreset02.NB.DONB := "Alezander was disrespectful to staff on multiple occasions becoming argumentative at times. He often showed a defiant attitude toward small staff-made decisions, though was willing to be quickly corrected."
+childC103.negPreset02.NB.DONB := " was disrespectful to staff on multiple occasions becoming argumentative at times. He often showed a defiant attitude toward small staff-made decisions, though was willing to be quickly corrected."
 childC103.negPreset02.NB.arguing := 2
 childC103.negPreset02.NB.boundaries := 2
 childC103.negPreset02.NB.busIncident := 0
@@ -567,7 +567,7 @@ childC103.negPreset02.NB.unauthorizedAbsence := 0
 childC103.negPreset02.NB.verbalAbuse := 0
 childC103.negPreset02.NB.violationOfRules := 0
 
-childC103.negPreset03.NB.DONB := "Alezander was disrespectful to peers on multiple occasions becoming argumentative at times."
+childC103.negPreset03.NB.DONB := " was disrespectful to peers on multiple occasions becoming argumentative at times."
 childC103.negPreset03.NB.arguing := 3
 childC103.negPreset03.NB.boundaries := 0
 childC103.negPreset03.NB.busIncident := 0
@@ -610,7 +610,7 @@ childC108 := {name: ""}
 
 childC201 := {"name": "Messi", "sex": "male", "laundryDay": "Tuesday, Saturday", "posPreset01": {"PB": {}}, "posPreset02": {"PB": {}}, "posPreset03": {"PB": {}}, "negPreset01": {"NB": {}}, "negPreset02": {"NB": {}}, "negPreset03": {"NB": {}}}
 
-childC201.posPreset01.PB.DOPB := "Messi was sociable and generally respectful to adults."
+childC201.posPreset01.PB.DOPB := " was sociable and generally respectful to adults and peers."
 childC201.posPreset01.PB.accountability := 0
 childC201.posPreset01.PB.angerImpulseControl := 0
 childC201.posPreset01.PB.busReport := 0
@@ -626,7 +626,7 @@ childC201.posPreset01.PB.politeGoodManners := 0
 childC201.posPreset01.PB.positiveReferral := 0
 childC201.posPreset01.PB.practiceTruthfulness := 0
 childC201.posPreset01.PB.respectfulOfAdults := 2
-childC201.posPreset01.PB.respectfulOfPeers := 0
+childC201.posPreset01.PB.respectfulOfPeers := 5
 childC201.posPreset01.PB.respectfulOfProperty := 0
 childC201.posPreset01.PB.other := 0
 childC201.posPreset01.PB.posMod01 := 1
@@ -636,7 +636,7 @@ childC201.posPreset01.PB.posMod04 := 0
 childC201.posPreset01.PB.posMod05 := 0
 childC201.posPreset01.PB.posMod06 := 0
 
-childC201.posPreset02.PB.DOPB := "Messi mostly kept to himself and to his video games today. He did not engage in much conversation with peers, but was generally respectful to staff."
+childC201.posPreset02.PB.DOPB := " mostly kept to himself and to his video games today. He did not engage in much conversation with peers, but was generally respectful to staff."
 childC201.posPreset02.PB.accountability := 0
 childC201.posPreset02.PB.angerImpulseControl := 0
 childC201.posPreset02.PB.busReport := 0
@@ -651,8 +651,8 @@ childC201.posPreset02.PB.helpful := 0
 childC201.posPreset02.PB.politeGoodManners := 0
 childC201.posPreset02.PB.positiveReferral := 0
 childC201.posPreset02.PB.practiceTruthfulness := 0
-childC201.posPreset02.PB.respectfulOfAdults := 0
-childC201.posPreset02.PB.respectfulOfPeers := 0
+childC201.posPreset02.PB.respectfulOfAdults := 2
+childC201.posPreset02.PB.respectfulOfPeers := 3
 childC201.posPreset02.PB.respectfulOfProperty := 0
 childC201.posPreset02.PB.other := 0
 childC201.posPreset02.PB.posMod01 := 1
@@ -688,7 +688,7 @@ childC201.posPreset03.PB.posMod04 := 0
 childC201.posPreset03.PB.posMod05 := 0
 childC201.posPreset03.PB.posMod06 := 0
 
-childC201.negPreset01.NB.DONB := "Messi had a good day today."
+childC201.negPreset01.NB.DONB := " had a good day today."
 childC201.negPreset01.NB.arguing := 0
 childC201.negPreset01.NB.boundaries := 0
 childC201.negPreset01.NB.busIncident := 0
@@ -723,7 +723,7 @@ childC201.negPreset01.NB.unauthorizedAbsence := 0
 childC201.negPreset01.NB.verbalAbuse := 0
 childC201.negPreset01.NB.violationOfRules := 0
 
-childC201.negPreset02.NB.DONB := "Messi complained about cottage rules and was disrespectful to his younger peers."
+childC201.negPreset02.NB.DONB := " complained about cottage rules and was disrespectful to his younger peers."
 childC201.negPreset02.NB.arguing := 0
 childC201.negPreset02.NB.boundaries := 0
 childC201.negPreset02.NB.busIncident := 0
@@ -758,7 +758,7 @@ childC201.negPreset02.NB.unauthorizedAbsence := 0
 childC201.negPreset02.NB.verbalAbuse := 0
 childC201.negPreset02.NB.violationOfRules := 0
 
-childC201.negPreset03.NB.DONB := "Messi kept to himself and was consumed with electronics for his allotted electronics time."
+childC201.negPreset03.NB.DONB := " kept to himself and was consumed with electronics for his allotted electronics time."
 childC201.negPreset03.NB.arguing := 0
 childC201.negPreset03.NB.boundaries := 0
 childC201.negPreset03.NB.busIncident := 0
@@ -793,9 +793,9 @@ childC201.negPreset03.NB.unauthorizedAbsence := 0
 childC201.negPreset03.NB.verbalAbuse := 0
 childC201.negPreset03.NB.violationOfRules := 0
 
-childC202 := {"name": "Jayce", "sex": "male", "laundryDay": "Monday, Friday", "posPreset01": {"PB": {}}, "posPreset02": {"PB": {}}, "posPreset03": {"PB": {}}, "negPreset01": {"NB": {}}, "negPreset02": {"NB": {}}, "negPreset03": {"NB": {}}}
+childC202 := {"name": "Brandon", "sex": "male", "laundryDay": "Monday, Friday", "posPreset01": {"PB": {}}, "posPreset02": {"PB": {}}, "posPreset03": {"PB": {}}, "negPreset01": {"NB": {}}, "negPreset02": {"NB": {}}, "negPreset03": {"NB": {}}}
 
-childC202.posPreset01.PB.DOPB := "Jayce was sociable and generally respectful to peers and adults."
+childC202.posPreset01.PB.DOPB := " was sociable and generally respectful to peers and adults."
 childC202.posPreset01.PB.accountability := 0
 childC202.posPreset01.PB.angerImpulseControl := 0
 childC202.posPreset01.PB.busReport := 0
@@ -821,7 +821,7 @@ childC202.posPreset01.PB.posMod04 := 0
 childC202.posPreset01.PB.posMod05 := 0
 childC202.posPreset01.PB.posMod06 := 0
 
-childC202.posPreset02.PB.DOPB := "Jayce was sociable and generally respectful to adults."
+childC202.posPreset02.PB.DOPB := " was sociable and generally respectful to adults."
 childC202.posPreset02.PB.PB.accountability := 0
 childC202.posPreset02.PB.angerImpulseControl := 0
 childC202.posPreset02.PB.busReport := 0
@@ -873,7 +873,7 @@ childC202.posPreset03.PB.posMod04 := 0
 childC202.posPreset03.PB.posMod05 := 0
 childC202.posPreset03.PB.posMod06 := 0
 
-childC202.negPreset01.NB.DONB := "Jayce had a good day today."
+childC202.negPreset01.NB.DONB := " had a good day today."
 childC202.negPreset01.NB.arguing := 0
 childC202.negPreset01.NB.boundaries := 0
 childC202.negPreset01.NB.busIncident := 0
@@ -908,7 +908,7 @@ childC202.negPreset01.NB.unauthorizedAbsence := 0
 childC202.negPreset01.NB.verbalAbuse := 0
 childC202.negPreset01.NB.violationOfRules := 0
 
-childC202.negPreset02.NB.DONB := "Jayce had a good day today. He squirmed very much when asked to do his homework, but still completed it."
+childC202.negPreset02.NB.DONB := " had a good day today. He squirmed very much when asked to do his homework, but still completed it."
 childC202.negPreset02.NB.arguing := 0
 childC202.negPreset02.NB.boundaries := 0
 childC202.negPreset02.NB.busIncident := 0
@@ -943,7 +943,7 @@ childC202.negPreset02.NB.unauthorizedAbsence := 0
 childC202.negPreset02.NB.verbalAbuse := 0
 childC202.negPreset02.NB.violationOfRules := 0
 
-childC202.negPreset03.NB.DONB := "Jayce whined about his perceptions of unfairness, which resulted in an outburst of crying with a bitter attitude."
+childC202.negPreset03.NB.DONB := " whined about his perceptions of unfairness, which resulted in an outburst of crying with a bitter attitude."
 childC202.negPreset03.NB.arguing := 1
 childC202.negPreset03.NB.boundaries := 0
 childC202.negPreset03.NB.busIncident := 0
@@ -978,9 +978,9 @@ childC202.negPreset03.NB.unauthorizedAbsence := 0
 childC202.negPreset03.NB.verbalAbuse := 0
 childC202.negPreset03.NB.violationOfRules := 0
 
-childC203 := {"name": "Christian", "sex": "male", "laundryDay": "Tuesday, Saturday", "posPreset01": {"PB": {}}, "posPreset02": {"PB": {}}, "posPreset03": {"PB": {}}, "negPreset01": {"NB": {}}, "negPreset02": {"NB": {}}, "negPreset03": {"NB": {}}}
+childC203 := {"name": "Brendon", "sex": "male", "laundryDay": "Tuesday, Saturday", "posPreset01": {"PB": {}}, "posPreset02": {"PB": {}}, "posPreset03": {"PB": {}}, "negPreset01": {"NB": {}}, "negPreset02": {"NB": {}}, "negPreset03": {"NB": {}}}
 
-childC203.posPreset01.PB.DOPB := "Christian was sociable, helpful, and generally respectful to staff and peers. He shows great accountability and character by doing the right thing without being told."
+childC203.posPreset01.PB.DOPB := " was sociable, helpful, and generally respectful to staff and peers. He shows great accountability and character by doing the right thing without being told."
 childC203.posPreset01.PB.accountability := 2
 childC203.posPreset01.PB.angerImpulseControl := 1
 childC203.posPreset01.PB.busReport := 0
@@ -1058,7 +1058,7 @@ childC203.posPreset03.PB.posMod04 := 0
 childC203.posPreset03.PB.posMod05 := 0
 childC203.posPreset03.PB.posMod06 := 0
 
-childC203.negPreset01.NB.DONB := "Christian had a good day today."
+childC203.negPreset01.NB.DONB := " had a good day today."
 childC203.negPreset01.NB.arguing := 0
 childC203.negPreset01.NB.boundaries := 0
 childC203.negPreset01.NB.busIncident := 0
@@ -1165,7 +1165,7 @@ childC203.negPreset03.NB.violationOfRules := 0
 
 childC204 := {"name": "Xavi", "sex": "male", "laundryDay": "Unknown", "posPreset01": {"PB": {}}, "posPreset02": {"PB": {}}, "posPreset03": {"PB": {}}, "negPreset01": {"NB": {}}, "negPreset02": {"NB": {}}, "negPreset03": {"NB": {}}}
 
-childC204.posPreset01.PB.DOPB := childC204.name . " was sociable and generally respectful to peers and staff."
+childC204.posPreset01.PB.DOPB := " was sociable and generally respectful to peers and staff."
 childC204.posPreset01.PB.accountability := 0
 childC204.posPreset01.PB.angerImpulseControl := 0
 childC204.posPreset01.PB.busReport := 0
@@ -1243,7 +1243,7 @@ childC204.posPreset03.PB.posMod04 := 0
 childC204.posPreset03.PB.posMod05 := 0
 childC204.posPreset03.PB.posMod06 := 0
 
-childC204.negPreset01.NB.DONB := childC204.name . " had a good day today."
+childC204.negPreset01.NB.DONB := " had a good day today."
 childC204.negPreset01.NB.arguing := 0
 childC204.negPreset01.NB.boundaries := 0
 childC204.negPreset01.NB.busIncident := 0
@@ -1348,7 +1348,191 @@ childC204.negPreset03.NB.unauthorizedAbsence := 0
 childC204.negPreset03.NB.verbalAbuse := 0
 childC204.negPreset03.NB.violationOfRules := 0
 
-childC205 := {name: ""}
+childC205 := {"name": "Christian", "sex": "male", "laundryDay": "Tuesday, Saturday", "posPreset01": {"PB": {}}, "posPreset02": {"PB": {}}, "posPreset03": {"PB": {}}, "negPreset01": {"NB": {}}, "negPreset02": {"NB": {}}, "negPreset03": {"NB": {}}}
+
+childC205.posPreset01.PB.DOPB := " was sociable, helpful, and generally respectful to staff and peers. He shows great accountability and character by doing the right thing without being told."
+childC205.posPreset01.PB.accountability := 2
+childC205.posPreset01.PB.angerImpulseControl := 1
+childC205.posPreset01.PB.busReport := 0
+childC205.posPreset01.PB.cleanRoom := 0
+childC205.posPreset01.PB.clothingCare := 0
+childC205.posPreset01.PB.completedChore := 0
+childC205.posPreset01.PB.completedHomework := 0
+childC205.posPreset01.PB.goodHygiene := 0
+childC205.posPreset01.PB.goodSocialSkills := 2
+childC205.posPreset01.PB.grateful := 0
+childC205.posPreset01.PB.helpful := 1
+childC205.posPreset01.PB.politeGoodManners := 2
+childC205.posPreset01.PB.positiveReferral := 0
+childC205.posPreset01.PB.practiceTruthfulness := 0
+childC205.posPreset01.PB.respectfulOfAdults := 2
+childC205.posPreset01.PB.respectfulOfPeers := 5
+childC205.posPreset01.PB.respectfulOfProperty := 0
+childC205.posPreset01.PB.other := 0
+childC205.posPreset01.PB.posMod01 := 1
+childC205.posPreset01.PB.posMod02 := 1
+childC205.posPreset01.PB.posMod03 := 0
+childC205.posPreset01.PB.posMod04 := 0
+childC205.posPreset01.PB.posMod05 := 0
+childC205.posPreset01.PB.posMod06 := 0
+
+childC205.posPreset02.PB.DOPB := ""
+childC205.posPreset02.PB.accountability := 0
+childC205.posPreset02.PB.angerImpulseControl := 0
+childC205.posPreset02.PB.busReport := 0
+childC205.posPreset02.PB.cleanRoom := 0
+childC205.posPreset02.PB.clothingCare := 0
+childC205.posPreset02.PB.completedChore := 0
+childC205.posPreset02.PB.completedHomework := 0
+childC205.posPreset02.PB.goodHygiene := 0
+childC205.posPreset02.PB.goodSocialSkills := 0
+childC205.posPreset02.PB.grateful := 0
+childC205.posPreset02.PB.helpful := 0
+childC205.posPreset02.PB.politeGoodManners := 0
+childC205.posPreset02.PB.positiveReferral := 0
+childC205.posPreset02.PB.practiceTruthfulness := 0
+childC205.posPreset02.PB.respectfulOfAdults := 0
+childC205.posPreset02.PB.respectfulOfPeers := 0
+childC205.posPreset02.PB.respectfulOfProperty := 0
+childC205.posPreset02.PB.other := 0
+childC205.posPreset02.PB.posMod02 := 1
+childC205.posPreset02.PB.posMod02 := 1
+childC205.posPreset02.PB.posMod03 := 0
+childC205.posPreset02.PB.posMod04 := 0
+childC205.posPreset02.PB.posMod05 := 0
+childC205.posPreset02.PB.posMod06 := 0
+
+childC205.posPreset03.PB.DOPB := ""
+childC205.posPreset03.PB.accountability := 0
+childC205.posPreset03.PB.angerImpulseControl := 0
+childC205.posPreset03.PB.busReport := 0
+childC205.posPreset03.PB.cleanRoom := 0
+childC205.posPreset03.PB.clothingCare := 0
+childC205.posPreset03.PB.completedChore := 0
+childC205.posPreset03.PB.completedHomework := 0
+childC205.posPreset03.PB.goodHygiene := 0
+childC205.posPreset03.PB.goodSocialSkills := 0
+childC205.posPreset03.PB.grateful := 0
+childC205.posPreset03.PB.helpful := 0
+childC205.posPreset03.PB.politeGoodManners := 0
+childC205.posPreset03.PB.positiveReferral := 0
+childC205.posPreset03.PB.practiceTruthfulness := 0
+childC205.posPreset03.PB.respectfulOfAdults := 0
+childC205.posPreset03.PB.respectfulOfPeers := 0
+childC205.posPreset03.PB.respectfulOfProperty := 0
+childC205.posPreset03.PB.other := 0
+childC205.posPreset03.PB.posMod03 := 1
+childC205.posPreset03.PB.posMod02 := 1
+childC205.posPreset03.PB.posMod03 := 0
+childC205.posPreset03.PB.posMod04 := 0
+childC205.posPreset03.PB.posMod05 := 0
+childC205.posPreset03.PB.posMod06 := 0
+
+childC205.negPreset01.NB.DONB := " had a good day today."
+childC205.negPreset01.NB.arguing := 0
+childC205.negPreset01.NB.boundaries := 0
+childC205.negPreset01.NB.busIncident := 0
+childC205.negPreset01.NB.complaining := 0
+childC205.negPreset01.NB.crueltyToAnimals := 0
+childC205.negPreset01.NB.cussing := 0
+childC205.negPreset01.NB.deceitfulnessLying := 0
+childC205.negPreset01.NB.defiance := 0
+childC205.negPreset01.NB.demanding := 0
+childC205.negPreset01.NB.demandsAttention := 0
+childC205.negPreset01.NB.destructionOfProperty := 0
+childC205.negPreset01.NB.disobedient := 0
+childC205.negPreset01.NB.disrespectfulOfPeers := 0
+childC205.negPreset01.NB.disrespectfulOfAdults := 0
+childC205.negPreset01.NB.harmingOthers := 0
+childC205.negPreset01.NB.hostility := 0
+childC205.negPreset01.NB.inappropriateDress := 0
+childC205.negPreset01.NB.inappropriateSexualBehavior := 0
+childC205.negPreset01.NB.manipulative := 0
+childC205.negPreset01.NB.other := 0
+childC205.negPreset01.NB.physicalAgression := 0
+childC205.negPreset01.NB.poorHygiene := 0
+childC205.negPreset01.NB.pouting := 0
+childC205.negPreset01.NB.refusalToCompleteChores := 0
+childC205.negPreset01.NB.selfHarming := 0
+childC205.negPreset01.NB.slammingDoors := 0
+childC205.negPreset01.NB.schoolBehavior := 0
+childC205.negPreset01.NB.tantrum := 0
+childC205.negPreset01.NB.theft := 0
+childC205.negPreset01.NB.tobaccoUse := 0
+childC205.negPreset01.NB.unauthorizedAbsence := 0
+childC205.negPreset01.NB.verbalAbuse := 0
+childC205.negPreset01.NB.violationOfRules := 0
+
+childC205.negPreset02.NB.DONB := ""
+childC205.negPreset02.NB.arguing := 0
+childC205.negPreset02.NB.boundaries := 0
+childC205.negPreset02.NB.busIncident := 0
+childC205.negPreset02.NB.complaining := 0
+childC205.negPreset02.NB.crueltyToAnimals := 0
+childC205.negPreset02.NB.cussing := 0
+childC205.negPreset02.NB.deceitfulnessLying := 0
+childC205.negPreset02.NB.defiance := 0
+childC205.negPreset02.NB.demanding := 0
+childC205.negPreset02.NB.demandsAttention := 0
+childC205.negPreset02.NB.destructionOfProperty := 0
+childC205.negPreset02.NB.disobedient := 0
+childC205.negPreset02.NB.disrespectfulOfPeers := 0
+childC205.negPreset02.NB.disrespectfulOfAdults := 0
+childC205.negPreset02.NB.harmingOthers := 0
+childC205.negPreset02.NB.hostility := 0
+childC205.negPreset02.NB.inappropriateDress := 0
+childC205.negPreset02.NB.inappropriateSexualBehavior := 0
+childC205.negPreset02.NB.manipulative := 0
+childC205.negPreset02.NB.other := 0
+childC205.negPreset02.NB.physicalAgression := 0
+childC205.negPreset02.NB.poorHygiene := 0
+childC205.negPreset02.NB.pouting := 0
+childC205.negPreset02.NB.refusalToCompleteChores := 0
+childC205.negPreset02.NB.selfHarming := 0
+childC205.negPreset02.NB.slammingDoors := 0
+childC205.negPreset02.NB.schoolBehavior := 0
+childC205.negPreset02.NB.tantrum := 0
+childC205.negPreset02.NB.theft := 0
+childC205.negPreset02.NB.tobaccoUse := 0
+childC205.negPreset02.NB.unauthorizedAbsence := 0
+childC205.negPreset02.NB.verbalAbuse := 0
+childC205.negPreset02.NB.violationOfRules := 0
+
+childC205.negPreset03.NB.DONB := ""
+childC205.negPreset03.NB.arguing := 0
+childC205.negPreset03.NB.boundaries := 0
+childC205.negPreset03.NB.busIncident := 0
+childC205.negPreset03.NB.complaining := 0
+childC205.negPreset03.NB.crueltyToAnimals := 0
+childC205.negPreset03.NB.cussing := 0
+childC205.negPreset03.NB.deceitfulnessLying := 0
+childC205.negPreset03.NB.defiance := 0
+childC205.negPreset03.NB.demanding := 0
+childC205.negPreset03.NB.demandsAttention := 0
+childC205.negPreset03.NB.destructionOfProperty := 0
+childC205.negPreset03.NB.disobedient := 0
+childC205.negPreset03.NB.disrespectfulOfPeers := 0
+childC205.negPreset03.NB.disrespectfulOfAdults := 0
+childC205.negPreset03.NB.harmingOthers := 0
+childC205.negPreset03.NB.hostility := 0
+childC205.negPreset03.NB.inappropriateDress := 0
+childC205.negPreset03.NB.inappropriateSexualBehavior := 0
+childC205.negPreset03.NB.manipulative := 0
+childC205.negPreset03.NB.other := 0
+childC205.negPreset03.NB.physicalAgression := 0
+childC205.negPreset03.NB.poorHygiene := 0
+childC205.negPreset03.NB.pouting := 0
+childC205.negPreset03.NB.refusalToCompleteChores := 0
+childC205.negPreset03.NB.selfHarming := 0
+childC205.negPreset03.NB.slammingDoors := 0
+childC205.negPreset03.NB.schoolBehavior := 0
+childC205.negPreset03.NB.tantrum := 0
+childC205.negPreset03.NB.theft := 0
+childC205.negPreset03.NB.tobaccoUse := 0
+childC205.negPreset03.NB.unauthorizedAbsence := 0
+childC205.negPreset03.NB.verbalAbuse := 0
+childC205.negPreset03.NB.violationOfRules := 0
+
 childC206 := {name: ""}
 childC207 := {name: ""}
 childC208 := {name: ""}
@@ -1371,25 +1555,36 @@ gui, add, edit,  x105 y%rowY%  w115 vdate, % today
 Gui, Add, CheckBox, x225 y%rowY% h20 visEditNote, Edit Existing Note
 
 rowY+=25
+colX := 105
+btnW := 50
+btnSpace := 55
+
 gui, add, text, x5 y%rowY% h20, Child Presets:
-gui, add, button, x105 y%rowY% w35 h20 gsetChildC101, C101
-gui, add, button, x145 y%rowY% w35 h20 gsetChildC102, C102
-gui, add, button, x185 y%rowY% w35 h20 gsetChildC103, C103
-gui, add, button, x225 y%rowY% w35 h20 gsetChildC104, C104
-gui, add, button, x265 y%rowY% w35 h20 gsetChildC105, C105
-gui, add, button, x305 y%rowY% w35 h20 gsetChildC106, C106
-gui, add, button, x345 y%rowY% w35 h20 gsetChildC107, C107
-gui, add, button, x385 y%rowY% w35 h20 gsetChildC108, C108
+gui, add, button, x%colX% y%rowY% w%btnW% h20 gsetChildC101, Cyrus
+colX+=btnSpace
+gui, add, button, x%colX% y%rowY% w%btnW% h20 gsetChildC102, Jacob
+colX+=btnSpace
+gui, add, button, x%colX% y%rowY% w%btnW% h20 gsetChildC103, Jaybian
+colX+=btnSpace
+gui, add, button, x%colX% y%rowY% w%btnW% h20 gsetChildC104, Josue
+; colX+=btnSpace
+; gui, add, button, x%colX% y%rowY% w%btnW% h20 gsetChildC105, C405
+; colX+=btnSpace
+; gui, add, button, x%colX% y%rowY% w%btnW% h20 gsetChildC106, C406
 
 rowY+=25
-gui, add, button, x105 y%rowY% w35 h20 gsetChildC201, C201
-gui, add, button, x145 y%rowY% w35 h20 gsetChildC202, C202
-gui, add, button, x185 y%rowY% w35 h20 gsetChildC203, C203
-gui, add, button, x225 y%rowY% w35 h20 gsetChildC204, C204
-gui, add, button, x265 y%rowY% w35 h20 gsetChildC205, C205
-gui, add, button, x305 y%rowY% w35 h20 gsetChildC206, C206
-gui, add, button, x345 y%rowY% w35 h20 gsetChildC207, C207
-gui, add, button, x385 y%rowY% w35 h20 gsetChildC208, C208
+colX := 105
+gui, add, button, x%colX% y%rowY% w%btnW% h20 gsetChildC201, Messi
+colX+=btnSpace
+gui, add, button, x%colX% y%rowY% w%btnW% h20 gsetChildC202, Brandon
+colX+=btnSpace
+gui, add, button, x%colX% y%rowY% w%btnW% h20 gsetChildC203, Brendon
+colX+=btnSpace
+gui, add, button, x%colX% y%rowY% w%btnW% h20 gsetChildC204, Xavi
+colX+=btnSpace
+gui, add, button, x%colX% y%rowY% w%btnW% h20 gsetChildC205, Chris
+; colX+=btnSpace
+; gui, add, button, x%colX% y%rowY% w%btnW% h20 gsetChildC206, C206
 
 rowY+=25
 gui, add, text,  x5 y%rowY% h20, Child Name:
@@ -1518,8 +1713,12 @@ return
 
 
 applyPosModifiers:
+gui, submit, nohide
+
 gosub, setPosModString
-GuiControl,, DOPB, % currPosPreset.PB.DOPB . posModString
+; this get's the name from the "Child Name" text field
+GuiControlGet, name, , childName
+GuiControl,, DOPB, % name . currPosPreset.PB.DOPB . posModString
 ; SoundBeep
 return
 
@@ -1626,31 +1825,44 @@ gosub, setChildName
 ; SoundBeep
 return
 
+
 ; -----------------------------------------------------
 setPosPreset01:
+gui, submit, nohide
+; this get's the name from the "Child Name" text field
+GuiControlGet, name, , childName
+
 currPosPreset := currChild.posPreset01
 currPBArray := currChild.posPreset01.PB
 gosub, setPosPresetModifiers
 gosub, setPosModString
-GuiControl,, DOPB, % currPosPreset.PB.DOPB . posModString
+GuiControl,, DOPB, % name . currPosPreset.PB.DOPB . posModString
 ; SoundBeep
 return
 
 setPosPreset02:
+gui, submit, nohide
+; this get's the name from the "Child Name" text field
+GuiControlGet, name, , childName
+
 currPosPreset := currChild.posPreset02
 currPBArray := currChild.posPreset02.PB
 gosub, setPosPresetModifiers
 gosub, setPosModString
-GuiControl,, DOPB, % currPosPreset.PB.DOPB . posModString
+GuiControl,, DOPB, % name . currPosPreset.PB.DOPB . posModString
 ; SoundBeep
 return
 
 setPosPreset03:
+gui, submit, nohide
+; this get's the name from the "Child Name" text field
+GuiControlGet, name, , childName
+
 currPosPreset := currChild.posPreset03
 currPBArray := currChild.posPreset03.PB
 gosub, setPosPresetModifiers
 gosub, setPosModString
-GuiControl,, DOPB, % currPosPreset.PB.DOPB . posModString
+GuiControl,, DOPB, % name . currPosPreset.PB.DOPB . posModString
 ; SoundBeep
 return
 
@@ -1700,23 +1912,35 @@ return
 
 ; -----------------------------------------------------
 setNegPreset01:
+gui, submit, nohide
+; this get's the name from the "Child Name" text field
+GuiControlGet, name, , childName
+
 currNegPreset := currChild.negPreset01
 currNBArray := currNegPreset.NB
-GuiControl,, DONB, % currNBArray.DONB . negModString
+GuiControl,, DONB, % name . currNBArray.DONB . negModString
 ; SoundBeep
 return
 
 setNegPreset02:
+gui, submit, nohide
+; this get's the name from the "Child Name" text field
+GuiControlGet, name, , childName
+
 currNegPreset := currChild.negPreset02
 currNBArray := currNegPreset.NB
-GuiControl,, DONB, % currNBArray.DONB . negModString
+GuiControl,, DONB, % name . currNBArray.DONB . negModString
 ; SoundBeep
 return
 
 setNegPreset03:
+gui, submit, nohide
+; this get's the name from the "Child Name" text field
+GuiControlGet, name, , childName
+
 currNegPreset := currChild.negPreset03
 currNBArray := currNegPreset.NB
-GuiControl,, DONB, % currNBArray.DONB . negModString
+GuiControl,, DONB, % name . currNBArray.DONB . negModString
 ; SoundBeep
 return
 
@@ -1943,14 +2167,8 @@ Send, % DONB
 Sleep, % sleepAmount
 gosub, tabProgUpSleep
 
-; This tabs to the "Signature Date" field
-Loop, 10
-	{
-		Send, {Tab}
-		Sleep, % sleepAmount
-	}
-	
-Loop, % priviledgeLevel
+;  This Tabs to, and ticks the "No Concerns" checkbox
+Loop 8
 	{
 		Send, {Tab}
 		Sleep, % sleepAmount
@@ -1959,7 +2177,85 @@ Loop, % priviledgeLevel
 Send, {Space}
 Sleep, % sleepAmount
 
-Loop, % 6 - priviledgeLevel + 3
+; This tabs to, and ticks "Yes" for "Were TBRI's used?" prompt
+Loop 3
+	{
+		Send, {Tab}
+		Sleep, % sleepAmount
+	}
+
+Send, {Space}
+Sleep, % sleepAmount
+
+; UNCOMMENT FOR TBRI FIELD INPUT
+; this is the start of the TBRI checkboxes (26 checkboxes)
+
+;Which Trust Based Relational Interventions were used? (check all that apply)
+;01;Eye Contact								Authoritative Voice (Tone, Volume, Cadence)
+;03;Healthy Touch							Behavioral Matching
+;05;Playful Interaction						Mindfulness: Attunement & Awareness
+;07;Mindfulness: Calm Presence				Mindfulness: Creative Problem Solving
+;09;Mindfulness: Flexible Responding		Transitions
+;11;Rituals (e.g., Attachment Ritual)		Hydration (Water)
+;13;Blood Sugar (Snacks)					Physical Activity
+;15;Deep Breathing							Sensory Experiences: Vestibular
+;17;Sensory Experiences: Proprioceptive		Sensory Experiences: Touch
+;19;Life Value Terms: Using Words			Life Value Terms: With Respect
+;21;Life Value Terms: Accepting “No”		Life Value Terms: Gentleness and Kindness
+;23;Life Value Terms: Listen and Obey		Behavioral Scripts: Choices
+;25;Behavioral Scripts: Compromises			Behavioral Scripts: Re-dos
+
+Send, {Tab}
+Sleep, % sleepAmount
+
+Send, {Space} ;Eye Contact
+
+Loop 4 
+	{
+		Gosub, tabProgUpSleep
+	}
+
+; Playful interaction
+Send, {Space} ;
+Gosub, tabProgUpSleep
+
+Loop 5
+	{
+		Send, {Tab}
+		Sleep, % sleepAmount
+	}
+
+Send, {Space} ; Rituals
+Gosub, tabProgUpSleep
+
+Send, {Space} ; Water
+Gosub, tabProgUpSleep
+
+Send, {Space} ; Blood Sugar (Snacks)
+Gosub, tabProgUpSleep
+
+Send, {Space} ; Physical Activity
+
+Loop 13 
+	{
+		Gosub, tabProgUpSleep
+	}
+
+TBRIstring := "Connecting principles and attachment rituals such as fist bumps and whiteboard doodles encouraged emotional connection. Eye contact maintained active listening. Physical activity and snacks aimed to balance energy levels and mood."
+
+Send, % TBRIstring
+
+	
+Loop % priviledgeLevel
+	{
+		Send, {Tab}
+		Sleep, % sleepAmount
+	}
+
+Send, {Space}
+Sleep, % sleepAmount
+
+Loop % (6 - priviledgeLevel + 3)
 	{
 		Send, {Tab}
 		Sleep, % sleepAmount
@@ -1970,7 +2266,7 @@ Sleep, % sleepAmount
 Send, {Tab}
 
 GuiControl,,progbar, 100
-; SoundBeep, 750, 200
+SoundBeep, 750, 200
 
 Return
 
